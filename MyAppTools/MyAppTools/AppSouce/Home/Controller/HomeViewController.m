@@ -77,7 +77,7 @@ typedef enum : NSUInteger {
 //    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"04.jpg"]];
     backgroundView=[[UIImageView alloc]init];
     [self.view addSubview:backgroundView];
-    backgroundView.image=[UIImage imageNamed:@"0.jpg"];
+    backgroundView.image=[UIImage imageNamed:@"1"];
     backgroundView.contentMode=UIViewContentModeScaleAspectFill;
     backgroundView.size=CGSizeMake(self.view.frame.size.width, self.view.frame.size.height);
     backgroundView.center=self.view.center;
@@ -378,7 +378,7 @@ typedef enum : NSUInteger {
     }else{
         _currentIndex=(_currentIndex-1+IMAGE_COUNT)%IMAGE_COUNT;
     }
-    NSString *imageName=[NSString stringWithFormat:@"%i.jpg",_currentIndex];
+    NSString *imageName=[NSString stringWithFormat:@"%i.png",_currentIndex];
     return [UIImage imageNamed:imageName];
 }
 
