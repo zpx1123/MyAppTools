@@ -6,24 +6,21 @@
 //  Copyright © 2016年 YouXianMing. All rights reserved.
 //
 
-#import "PopAnimator.h"
+#import "Pop_Animator.h"
 #import "UIView+SetRect.h"
 #import "UIView+AnimationProperty.h"
-//#import "AnimationsListViewController.h"
 
-@implementation PopAnimator
+@implementation Pop_Animator
 
 - (void)transitionAnimation {
     
     // http://stackoverflow.com/questions/25513300/using-custom-ios-7-transition-with-subclassed-uinavigationcontroller-occasionall
     [self.containerView insertSubview:self.toViewController.view belowSubview:self.fromViewController.view];
-
-//    AnimationsListViewController *controller = (AnimationsListViewController *)self.toViewController;
     
-    [UIView animateWithDuration:self.transitionDuration - 0.1 delay:0.f options:UIViewAnimationOptionCurveEaseInOut animations:^{
+    [UIView animateWithDuration:self.transitionDuration animations:^{
         
-//        controller.view.alpha          = 1.f;
-        self.fromViewController.view.x = Width;
+        self.toViewController.view.scale = 1.f;
+        self.fromViewController.view.x   = Width;
         
     } completion:^(BOOL finished) {
         

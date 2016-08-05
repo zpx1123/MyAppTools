@@ -44,7 +44,7 @@
         _datas = [NSMutableArray new];
         
         NSArray *dataSource = @[@{
-                                    @"imageName":@"0.jpg",
+                                    @"imageName":@"pic_4",
                                     @"title":@"广西鱼塘现大坑 一夜”吃掉“五万斤鱼"
                                     },
                                 @{

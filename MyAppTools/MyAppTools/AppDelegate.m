@@ -10,12 +10,48 @@
 #import "ViewController.h"
 #import "UINavigationBar+Awesome.h"
 #import "MyLayout.h"
-@interface AppDelegate ()
+#import "TabBarViewController.h"
+#import "TabBarTypeTwoViewController.h"
+#import "CustomNavigationController.h"
+@interface AppDelegate () <CustomTabBarViewControllerDelegate>
 
 @end
 
 @implementation AppDelegate
 
+
+//自定义tabbar  //视图控制器 继承CustomViewController
+
+//- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+//    
+//    // Override point for customization after application launch.
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    
+////    CustomTabBarViewController *tabBarController = [[TabBarTypeTwoViewController alloc] init];
+//        CustomTabBarViewController *tabBarController = [[TabBarViewController alloc] init];
+//    tabBarController.delegate                    = self;
+//    UINavigationController     *controller       = [[UINavigationController alloc] initWithRootViewController:tabBarController];
+//    [controller setNavigationBarHidden:YES animated:NO];
+//    
+//    self.window.rootViewController = controller;
+//    self.window.backgroundColor    = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible];
+//    
+//    return YES;
+//}
+//
+//- (BOOL)customTabBarController:(CustomTabBarViewController *)tabBarController
+//    shouldSelectViewController:(UIViewController *)viewController
+//                 selectedIndex:(NSInteger)index {
+//    
+//    return YES;
+//}
+//
+//- (void)customTabBarController:(CustomTabBarViewController *)tabBarController
+//       didSelectViewController:(UIViewController *)viewController
+//                 selectedIndex:(NSInteger)index {
+//    
+//}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

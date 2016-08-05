@@ -30,6 +30,7 @@
 #import "ReplicatorLineViewController.h"
 #import "BaseControlViewController.h"
 #import "QRCodeViewController.h"
+#import "PushPopVIewController.h"
 
 @interface MessageViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -251,6 +252,9 @@
                            },
                          @{@"title":NSLocalizedString(@"13.QRCodeViewController - Weight & Relative margin", @""),
                            @"class":[QRCodeViewController class]
+                           },
+                         @{@"title":NSLocalizedString(@"13.PushPopVIewController - Weight & Relative margin", @""),
+                           @"class":[PushPopVIewController class]
                            },
                          
                          

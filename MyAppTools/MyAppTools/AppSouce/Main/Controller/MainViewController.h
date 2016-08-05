@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CustomViewController.h"
+//自定义tabbar 继承CustomViewController
 @interface MainViewController : UIViewController
 
 @end
