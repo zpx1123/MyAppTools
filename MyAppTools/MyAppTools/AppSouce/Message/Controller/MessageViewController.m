@@ -31,6 +31,8 @@
 #import "BaseControlViewController.h"
 #import "QRCodeViewController.h"
 #import "PushPopVIewController.h"
+#import "TextFieldViewController.h"
+#import "IconEdgeInsetsLabelViewController.h"
 
 @interface MessageViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -214,47 +216,53 @@
 {
     if (_demoVCLists == nil)
     {
-        _demoVCLists = @[@{@"title":NSLocalizedString(@"1.OffsetCellViewController - Vert&Horz", @""),
+        _demoVCLists = @[@{@"title":NSLocalizedString(@"1.OffsetCellViewController - cell动画", @""),
                            @"class":[OffsetCellViewController class]
                            },
-                         @{@"title":NSLocalizedString(@"2.AlertViewController - Combine with UIScrollView", @""),
+                         @{@"title":NSLocalizedString(@"2.AlertViewController - 弹出框", @""),
                            @"class":[AlertViewController class]
                            },
-                         @{@"title":NSLocalizedString(@"3.ButtonPressViewController - Gravity&Fill", @""),
+                         @{@"title":NSLocalizedString(@"3.ButtonPressViewController - 按钮样式", @""),
                            @"class":[ButtonPressViewController class]
                            },
-                         @{@"title":NSLocalizedString(@"4.TransformFadeViewController - Wrap content", @""),
+                         @{@"title":NSLocalizedString(@"4.TransformFadeViewController - 页面动画", @""),
                            @"class":[TransformFadeViewController class]
                            },
-                         @{@"title":NSLocalizedString(@"5.CountDownTimerController - Weight & Relative margin", @""),
+                         @{@"title":NSLocalizedString(@"5.CountDownTimerController - 倒计时", @""),
                            @"class":[CountDownTimerController class]
                            },
-                         @{@"title":NSLocalizedString(@"6.ShimmerController - Weight & Relative margin", @""),
+                         @{@"title":NSLocalizedString(@"6.ShimmerController - 滑动动画", @""),
                            @"class":[ShimmerController class]
                            },
-                         @{@"title":NSLocalizedString(@"7.PressAnimationButtonController - Weight & Relative margin", @""),
+                         @{@"title":NSLocalizedString(@"7.PressAnimationButtonController - 按钮样式", @""),
                            @"class":[PressAnimationButtonController class]
                            },
-                         @{@"title":NSLocalizedString(@"8.GifPictureController - Weight & Relative margin", @""),
+                         @{@"title":NSLocalizedString(@"8.GifPictureController - 加载gif", @""),
                            @"class":[GifPictureController class]
                            },
-                         @{@"title":NSLocalizedString(@"9.SCViewShakerController - Weight & Relative margin", @""),
+                         @{@"title":NSLocalizedString(@"9.SCViewShakerController - 抖动", @""),
                            @"class":[SCViewShakerController class]
                            },
-                         @{@"title":NSLocalizedString(@"10.ScrollViewAnimationController - Weight & Relative margin", @""),
+                         @{@"title":NSLocalizedString(@"10.ScrollViewAnimationController -ScrollView ", @""),
                            @"class":[ScrollViewAnimationController class]
                            },
-                         @{@"title":NSLocalizedString(@"11.ReplicatorLineViewController - Weight & Relative margin", @""),
+                         @{@"title":NSLocalizedString(@"11.ReplicatorLineViewController -进度条 ", @""),
                            @"class":[ReplicatorLineViewController class]
                            },
-                         @{@"title":NSLocalizedString(@"12.BaseControlViewController - Weight & Relative margin", @""),
+                         @{@"title":NSLocalizedString(@"12.BaseControlViewController - 自定义按钮", @""),
                            @"class":[BaseControlViewController class]
                            },
-                         @{@"title":NSLocalizedString(@"13.QRCodeViewController - Weight & Relative margin", @""),
+                         @{@"title":NSLocalizedString(@"13.QRCodeViewController - 二维码", @""),
                            @"class":[QRCodeViewController class]
                            },
-                         @{@"title":NSLocalizedString(@"13.PushPopVIewController - Weight & Relative margin", @""),
+                         @{@"title":NSLocalizedString(@"13.PushPopVIewController - 页面跳转", @""),
                            @"class":[PushPopVIewController class]
+                           },
+                         @{@"title":NSLocalizedString(@"13.TextFieldViewController -验证手机号", @""),
+                           @"class":[TextFieldViewController class]
+                           },
+                         @{@"title":NSLocalizedString(@"13.IconEdgeInsetsLabelViewController - 自定义lable", @""),
+                           @"class":[IconEdgeInsetsLabelViewController class]
                            },
                          
                          

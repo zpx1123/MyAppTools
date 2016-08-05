@@ -346,6 +346,16 @@
 		B07B6DD61D546FA0002D6431 /* TabBarImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B07B6DCE1D546FA0002D6431 /* TabBarImageModel.m */; };
 		B07B6DD71D546FA0002D6431 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07B6DD11D546FA0002D6431 /* TabBarViewController.m */; };
 		B07B6DD81D546FA0002D6431 /* TabBarTypeTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07B6DD41D546FA0002D6431 /* TabBarTypeTwoViewController.m */; };
+		B07B6DDF1D547E00002D6431 /* AbsTextFieldViewValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B07B6DDA1D547E00002D6431 /* AbsTextFieldViewValidator.m */; };
+		B07B6DE01D547E00002D6431 /* TextFieldValidatorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B07B6DDC1D547E00002D6431 /* TextFieldValidatorMessage.m */; };
+		B07B6DE11D547E00002D6431 /* UITextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = B07B6DDE1D547E00002D6431 /* UITextFieldView.m */; };
+		B07B6DE61D547E1D002D6431 /* PasswordValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B07B6DE31D547E1D002D6431 /* PasswordValidator.m */; };
+		B07B6DE71D547E1D002D6431 /* PhoneValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B07B6DE51D547E1D002D6431 /* PhoneValidator.m */; };
+		B07B6DEB1D547F09002D6431 /* TextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07B6DEA1D547F09002D6431 /* TextFieldViewController.m */; };
+		B07B6DEF1D548025002D6431 /* TouchEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = B07B6DEE1D548025002D6431 /* TouchEventView.m */; };
+		B07B6DF61D54845C002D6431 /* IconEdgeInsetsLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07B6DF51D54845C002D6431 /* IconEdgeInsetsLabelViewController.m */; };
+		B07B6DFC1D5485D4002D6431 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B07B6DF91D5485D4002D6431 /* CustomButton.m */; };
+		B07B6E001D5486BF002D6431 /* BaseCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B07B6DFF1D5486BF002D6431 /* BaseCustomButton.m */; };
 		B0FA1AF21D507D0A0043FC1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FA1AF11D507D0A0043FC1F /* main.m */; };
 		B0FA1AF51D507D0A0043FC1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FA1AF41D507D0A0043FC1F /* AppDelegate.m */; };
 		B0FA1AF81D507D0A0043FC1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FA1AF71D507D0A0043FC1F /* ViewController.m */; };
@@ -1073,6 +1083,26 @@
 		B07B6DD11D546FA0002D6431 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		B07B6DD31D546FA0002D6431 /* TabBarTypeTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarTypeTwoViewController.h; sourceTree = "<group>"; };
 		B07B6DD41D546FA0002D6431 /* TabBarTypeTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarTypeTwoViewController.m; sourceTree = "<group>"; };
+		B07B6DD91D547E00002D6431 /* AbsTextFieldViewValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbsTextFieldViewValidator.h; sourceTree = "<group>"; };
+		B07B6DDA1D547E00002D6431 /* AbsTextFieldViewValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbsTextFieldViewValidator.m; sourceTree = "<group>"; };
+		B07B6DDB1D547E00002D6431 /* TextFieldValidatorMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldValidatorMessage.h; sourceTree = "<group>"; };
+		B07B6DDC1D547E00002D6431 /* TextFieldValidatorMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldValidatorMessage.m; sourceTree = "<group>"; };
+		B07B6DDD1D547E00002D6431 /* UITextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextFieldView.h; sourceTree = "<group>"; };
+		B07B6DDE1D547E00002D6431 /* UITextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextFieldView.m; sourceTree = "<group>"; };
+		B07B6DE21D547E1D002D6431 /* PasswordValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordValidator.h; sourceTree = "<group>"; };
+		B07B6DE31D547E1D002D6431 /* PasswordValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordValidator.m; sourceTree = "<group>"; };
+		B07B6DE41D547E1D002D6431 /* PhoneValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneValidator.h; sourceTree = "<group>"; };
+		B07B6DE51D547E1D002D6431 /* PhoneValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneValidator.m; sourceTree = "<group>"; };
+		B07B6DE91D547F09002D6431 /* TextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldViewController.h; sourceTree = "<group>"; };
+		B07B6DEA1D547F09002D6431 /* TextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldViewController.m; sourceTree = "<group>"; };
+		B07B6DED1D548025002D6431 /* TouchEventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchEventView.h; sourceTree = "<group>"; };
+		B07B6DEE1D548025002D6431 /* TouchEventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchEventView.m; sourceTree = "<group>"; };
+		B07B6DF41D54845C002D6431 /* IconEdgeInsetsLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconEdgeInsetsLabelViewController.h; sourceTree = "<group>"; };
+		B07B6DF51D54845C002D6431 /* IconEdgeInsetsLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconEdgeInsetsLabelViewController.m; sourceTree = "<group>"; };
+		B07B6DF81D5485D4002D6431 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		B07B6DF91D5485D4002D6431 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		B07B6DFE1D5486BF002D6431 /* BaseCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCustomButton.h; sourceTree = "<group>"; };
+		B07B6DFF1D5486BF002D6431 /* BaseCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCustomButton.m; sourceTree = "<group>"; };
 		B0FA1AED1D507D0A0043FC1F /* MyAppTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAppTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FA1AF11D507D0A0043FC1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0FA1AF31D507D0A0043FC1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1140,6 +1170,7 @@
 		B014E61B1D53139300EF6723 /* AppSouce */ = {
 			isa = PBXGroup;
 			children = (
+				B07B6DCA1D546FA0002D6431 /* MainTabBarController */,
 				B014E61C1D53139300EF6723 /* Discover */,
 				B014E6251D53139300EF6723 /* Home */,
 				B014E6321D53139300EF6723 /* Main */,
@@ -1152,7 +1183,6 @@
 		B014E61C1D53139300EF6723 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				B07B6DCA1D546FA0002D6431 /* MainTabBarController */,
 				B014E61D1D53139300EF6723 /* Controller */,
 				B014E6201D53139300EF6723 /* DataSouce */,
 				B014E6211D53139300EF6723 /* ImageResources */,
@@ -1351,6 +1381,8 @@
 		B014E6411D53139300EF6723 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B07B6DF01D548407002D6431 /* IconEdgeInsetsLabel */,
+				B07B6DE81D547EF3002D6431 /* TextFieldViewController */,
 				B07B6DAE1D54600F002D6431 /* PushPopVIewController */,
 				B014E6421D53139300EF6723 /* AlertViewController */,
 				B014E64B1D53139300EF6723 /* BaseControlViewController */,
@@ -1753,6 +1785,7 @@
 		B014E7E21D53139400EF6723 /* CommonVIews */ = {
 			isa = PBXGroup;
 			children = (
+				B07B6DF71D5485C8002D6431 /* UIButton */,
 				B014E7E31D53139400EF6723 /* DLSlideView */,
 				B014E7F61D53139400EF6723 /* EditContentsViewController.h */,
 				B014E7F71D53139400EF6723 /* EditContentsViewController.m */,
@@ -1898,6 +1931,16 @@
 			children = (
 				B014E81D1D53139400EF6723 /* WDTextFieldLeftView.h */,
 				B014E81E1D53139400EF6723 /* WDTextFieldLeftView.m */,
+				B07B6DD91D547E00002D6431 /* AbsTextFieldViewValidator.h */,
+				B07B6DDA1D547E00002D6431 /* AbsTextFieldViewValidator.m */,
+				B07B6DDB1D547E00002D6431 /* TextFieldValidatorMessage.h */,
+				B07B6DDC1D547E00002D6431 /* TextFieldValidatorMessage.m */,
+				B07B6DDD1D547E00002D6431 /* UITextFieldView.h */,
+				B07B6DDE1D547E00002D6431 /* UITextFieldView.m */,
+				B07B6DE21D547E1D002D6431 /* PasswordValidator.h */,
+				B07B6DE31D547E1D002D6431 /* PasswordValidator.m */,
+				B07B6DE41D547E1D002D6431 /* PhoneValidator.h */,
+				B07B6DE51D547E1D002D6431 /* PhoneValidator.m */,
 			);
 			path = TextFieldView;
 			sourceTree = "<group>";
@@ -2287,6 +2330,7 @@
 		B014E8D71D53139400EF6723 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				B07B6DEC1D548025002D6431 /* TouchEventView */,
 				B014E8D81D53139400EF6723 /* AppleSystemService */,
 				B014E8DB1D53139400EF6723 /* CAGradientView */,
 				B014E8DE1D53139400EF6723 /* CalendarEvent */,
@@ -3210,7 +3254,8 @@
 				B07B6DCF1D546FA0002D6431 /* TabBarViewControllerTypeOne */,
 				B07B6DD21D546FA0002D6431 /* TabBarViewControllerTypeTwo */,
 			);
-			path = MainTabBarController;
+			name = MainTabBarController;
+			path = Discover/MainTabBarController;
 			sourceTree = "<group>";
 		};
 		B07B6DCF1D546FA0002D6431 /* TabBarViewControllerTypeOne */ = {
@@ -3229,6 +3274,44 @@
 				B07B6DD41D546FA0002D6431 /* TabBarTypeTwoViewController.m */,
 			);
 			path = TabBarViewControllerTypeTwo;
+			sourceTree = "<group>";
+		};
+		B07B6DE81D547EF3002D6431 /* TextFieldViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B07B6DE91D547F09002D6431 /* TextFieldViewController.h */,
+				B07B6DEA1D547F09002D6431 /* TextFieldViewController.m */,
+			);
+			path = TextFieldViewController;
+			sourceTree = "<group>";
+		};
+		B07B6DEC1D548025002D6431 /* TouchEventView */ = {
+			isa = PBXGroup;
+			children = (
+				B07B6DED1D548025002D6431 /* TouchEventView.h */,
+				B07B6DEE1D548025002D6431 /* TouchEventView.m */,
+			);
+			path = TouchEventView;
+			sourceTree = "<group>";
+		};
+		B07B6DF01D548407002D6431 /* IconEdgeInsetsLabel */ = {
+			isa = PBXGroup;
+			children = (
+				B07B6DF41D54845C002D6431 /* IconEdgeInsetsLabelViewController.h */,
+				B07B6DF51D54845C002D6431 /* IconEdgeInsetsLabelViewController.m */,
+			);
+			path = IconEdgeInsetsLabel;
+			sourceTree = "<group>";
+		};
+		B07B6DF71D5485C8002D6431 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				B07B6DF81D5485D4002D6431 /* CustomButton.h */,
+				B07B6DF91D5485D4002D6431 /* CustomButton.m */,
+				B07B6DFE1D5486BF002D6431 /* BaseCustomButton.h */,
+				B07B6DFF1D5486BF002D6431 /* BaseCustomButton.m */,
+			);
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 		B0FA1AE41D507D0A0043FC1F = {
@@ -3535,6 +3618,7 @@
 				B014EB121D53139500EF6723 /* UIViewController+Present_Dissmiss.m in Sources */,
 				B014EB1C1D53139500EF6723 /* DLUtility.m in Sources */,
 				B014EB141D53139500EF6723 /* UIViewController+swizzling.m in Sources */,
+				B07B6DE11D547E00002D6431 /* UITextFieldView.m in Sources */,
 				B014EA741D53139500EF6723 /* MessageAlertView.m in Sources */,
 				B014EB091D53139500EF6723 /* Aspects.m in Sources */,
 				B014EBCB1D53139500EF6723 /* CellDataAdapter.m in Sources */,
@@ -3547,6 +3631,8 @@
 				B014EB7B1D53139500EF6723 /* CGContextObject.m in Sources */,
 				B014EBB41D53139500EF6723 /* SDWebImageManager.m in Sources */,
 				B014EB7F1D53139500EF6723 /* RGBColor.m in Sources */,
+				B07B6DEF1D548025002D6431 /* TouchEventView.m in Sources */,
+				B07B6DDF1D547E00002D6431 /* AbsTextFieldViewValidator.m in Sources */,
 				B014EBAC1D53139500EF6723 /* TransformationMatrix.cpp in Sources */,
 				B014EB2E1D53139500EF6723 /* UserinfoSingle.m in Sources */,
 				B014EBEA1D53139500EF6723 /* CustomNodeStateView.m in Sources */,
@@ -3593,6 +3679,7 @@
 				B014EB341D53139500EF6723 /* PinyinFormatter.m in Sources */,
 				B014EBB01D53139500EF6723 /* SDWebImageCompat.m in Sources */,
 				B014EBAE1D53139500EF6723 /* NSData+ImageContentType.m in Sources */,
+				B07B6DFC1D5485D4002D6431 /* CustomButton.m in Sources */,
 				B014EB921D53139500EF6723 /* GCDSemaphore.m in Sources */,
 				B014EBE01D53139500EF6723 /* CollectionGridView.m in Sources */,
 				B014EB021D53139500EF6723 /* TitleView.m in Sources */,
@@ -3659,12 +3746,15 @@
 				B014EB3B1D53139500EF6723 /* IQUIView+Hierarchy.m in Sources */,
 				B014EC111D53139500EF6723 /* WDTwoTextNav.m in Sources */,
 				B014EBBF1D53139500EF6723 /* FontAttribute.m in Sources */,
+				B07B6DE01D547E00002D6431 /* TextFieldValidatorMessage.m in Sources */,
 				B014EB861D53139500EF6723 /* NodeModelViewController.m in Sources */,
 				B014EBEC1D53139500EF6723 /* JSAnimatedImagesView.m in Sources */,
 				B014EB071D53139500EF6723 /* WebViewController.m in Sources */,
 				B014EB481D53139500EF6723 /* WDHttpRequest.m in Sources */,
+				B07B6DF61D54845C002D6431 /* IconEdgeInsetsLabelViewController.m in Sources */,
 				B014EA6E1D53139500EF6723 /* MainViewController.m in Sources */,
 				B014EBA71D53139500EF6723 /* POPLayerExtras.mm in Sources */,
+				B07B6DEB1D547F09002D6431 /* TextFieldViewController.m in Sources */,
 				B014EA7B1D53139500EF6723 /* PressScaleButton.m in Sources */,
 				B014EBE71D53139500EF6723 /* CustomInfiniteLoopCell.m in Sources */,
 				B014EBA51D53139500EF6723 /* POPDecayAnimation.mm in Sources */,
@@ -3672,6 +3762,7 @@
 				B014EC081D53139500EF6723 /* UIView+ConvenientMethod.m in Sources */,
 				B014EA711D53139500EF6723 /* AlertViewController.m in Sources */,
 				B014EBDD1D53139500EF6723 /* CHTCollectionViewWaterfallLayout.m in Sources */,
+				B07B6DE71D547E1D002D6431 /* PhoneValidator.m in Sources */,
 				B014EB3E1D53139500EF6723 /* IQKeyboardManager.m in Sources */,
 				B014EC0E1D53139500EF6723 /* UINavigationBar+Awesome.m in Sources */,
 				B014EB7A1D53139500EF6723 /* CalendarEvent.m in Sources */,
@@ -3743,6 +3834,7 @@
 				B0FA1AF21D507D0A0043FC1F /* main.m in Sources */,
 				B014EBB71D53139500EF6723 /* UIImage+GIF.m in Sources */,
 				B014EB1D1D53139500EF6723 /* EditContentsViewController.m in Sources */,
+				B07B6E001D5486BF002D6431 /* BaseCustomButton.m in Sources */,
 				B014EB1B1D53139500EF6723 /* DLTabedSlideView.m in Sources */,
 				B014EB4A1D53139500EF6723 /* LewPopupBackgroundView.m in Sources */,
 				B014EA901D53139500EF6723 /* QRCodeViewController.m in Sources */,
@@ -3762,6 +3854,7 @@
 				B014EB351D53139500EF6723 /* PinYinForObjc.m in Sources */,
 				B014EBDF1D53139500EF6723 /* CollectionGridView+ConvenientMethod.m in Sources */,
 				B07B6DD71D546FA0002D6431 /* TabBarViewController.m in Sources */,
+				B07B6DE61D547E1D002D6431 /* PasswordValidator.m in Sources */,
 				B014EBD21D53139500EF6723 /* CustomViewController.m in Sources */,
 				B014EB8B1D53139500EF6723 /* DefaultNotificationCenter.m in Sources */,
 				B014EA981D53139500EF6723 /* ShimmerController.m in Sources */,
