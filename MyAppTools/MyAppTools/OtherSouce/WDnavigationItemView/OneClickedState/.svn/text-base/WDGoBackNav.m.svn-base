@@ -26,7 +26,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         
-        [self gobackWithImage:[UIImage imageNamed:@"goback.png"]];
+        [self gobackWithImage:[UIImage imageNamed:@"topGoBack"]];
        
         
     }

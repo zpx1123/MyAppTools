@@ -34,14 +34,14 @@
 /// 请求的BaseURL
 - (NSString *)baseUrl{
     
-    return @"http://192.168.1.190:8666/hsyh/api";
-    
+     //开发库
+    return @"http://192.168.1.20:9080/tlsme/";
 }
 
 /// 请求的连接超时时间，默认为60秒
 - (NSTimeInterval)requestTimeoutInterval{
     
-    return 60;
+    return 3.0f;
 }
 
 /// 请求的SerializerType
@@ -65,17 +65,8 @@
 /// 在HTTP报头添加的自定义参数
 - (NSDictionary *)requestHeaderFieldValueDictionary{
     
-    NSDictionary * headDic=nil;
-    
-    if ([UserinfoSingle sharedUserinfoSingle].usermodel!=nil) {
-        
-         headDic=@{@"userid":[UserinfoSingle sharedUserinfoSingle].usermodel.userid,@"token":[UserinfoSingle sharedUserinfoSingle].usermodel.token};
-    }
-    
-    
-    
-   return headDic;
-    
+
+    return @{@"WDCLI":@"SSO6325C03A93532E02AE6AF1AF0DC63893"};
 //    return nil;
     
 }

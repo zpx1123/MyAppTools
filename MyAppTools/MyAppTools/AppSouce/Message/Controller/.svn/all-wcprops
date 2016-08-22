@@ -1,5 +1,17 @@
 K 25
 svn:wc:ra_dav:version-url
 V 115
-/svn/hsyh/!svn/ver/307/trunk/03%E7%BC%96%E7%A0%81/iOS/MicroBusinessBank/MicroBusinessBank/AppSouce/Login/Controller
+/svn/hsyh/!svn/ver/2530/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/AppSouce/Message/Controller
+END
+MessageViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/AppSouce/Message/Controller/MessageViewController.h
+END
+MessageViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/hsyh/!svn/ver/2528/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/AppSouce/Message/Controller/MessageViewController.m
 END

@@ -7,7 +7,7 @@
 //
 
 #import "WDNetRequest.h"
-
+#import "UserinfoSingle.h"
 @interface WDNetRequest(){
     
     AFHTTPSessionManager * _manager;
@@ -25,7 +25,6 @@
     if (self=[super init]) {
         
         _manager=[AFHTTPSessionManager manager];
-        
         _manager.operationQueue.maxConcurrentOperationCount=4;
         _downLoadTaskArrs=[NSMutableArray array];
     }
@@ -147,16 +146,18 @@
                     failure:(void (^)(NSError *error))failure{
     
 //    关于参数 @{@"field-type":@"image"}  可改@{@"field-type":@"name"} 接口传进来
-    NSMutableURLRequest *request = [[AFHTTPRequestSerializer serializer] multipartFormRequestWithMethod:@"POST" URLString:url parameters:@{@"field-type":@"image"} constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
+        NSMutableURLRequest *request = [[AFHTTPRequestSerializer serializer] multipartFormRequestWithMethod:@"POST" URLString:url parameters:@{@"field-type":@"image"} constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
 
-        NSString *name = @"image";
-        NSString *formKey = @"image";
+        NSString *name = @"file";
+        NSString *formKey = @"file";
         NSString *type = @"image/jpeg";
         [formData appendPartWithFileData:date name:formKey fileName:name mimeType:type];
         
     } error:nil];
     
     AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+    
+
     
     NSURLSessionUploadTask *uploadTask;
     uploadTask = [manager
@@ -237,12 +238,21 @@
        WDRequestMethod  mothod=[request requestMethod];
    
       NSString *url = [self buildRequestUrl:request];
-    _manager.requestSerializer.timeoutInterval=[request requestTimeoutInterval];
+    
+//    _manager.requestSerializer.timeoutInterval=[request requestTimeoutInterval];
+    
+    // 设置超时时间
+    [_manager.requestSerializer willChangeValueForKey:@"timeoutInterval"];
+    _manager.requestSerializer.timeoutInterval = 5.0f;
+    [_manager.requestSerializer didChangeValueForKey:@"timeoutInterval"];
     
     //Allowing Invalid SSL Certificates
 //    _manager.securityPolicy.allowInvalidCertificates = YES
     
 
+    
+//    _manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html", nil];
+    
     if (request.requestSerializerType == WDRequestSerializerTypeHTTP) {
         _manager.requestSerializer = [AFHTTPRequestSerializer serializer];
     } else if (request.requestSerializerType == WDRequestSerializerTypeJSON) {

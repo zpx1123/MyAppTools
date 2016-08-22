@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component
+END
+YYTextInput.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component/YYTextInput.m
+END
+YYTextMagnifier.m
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component/YYTextMagnifier.m
+END
+YYTextLayout.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component/YYTextLayout.h
+END
+YYTextContainerView.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component/YYTextContainerView.h
+END
+YYTextDebugOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component/YYTextDebugOption.h
+END
+YYTextSelectionView.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component/YYTextSelectionView.h
+END
+YYTextLayout.m
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component/YYTextLayout.m
+END
+YYTextContainerView.m
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component/YYTextContainerView.m
+END
+YYTextEffectWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component/YYTextEffectWindow.h
+END
+YYTextDebugOption.m
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component/YYTextDebugOption.m
+END
+YYTextSelectionView.m
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component/YYTextSelectionView.m
+END
+YYTextLine.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component/YYTextLine.h
+END
+YYTextEffectWindow.m
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component/YYTextEffectWindow.m
+END
+YYTextKeyboardManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component/YYTextKeyboardManager.h
+END
+YYTextLine.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component/YYTextLine.m
+END
+YYTextInput.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component/YYTextInput.h
+END
+YYTextKeyboardManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component/YYTextKeyboardManager.m
+END
+YYTextMagnifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/Pods/YYKit/YYKit/Text/Component/YYTextMagnifier.h
+END

@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/HCSearch/PinYinSearchLib
+END
+PinyinFormatter.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/HCSearch/PinYinSearchLib/PinyinFormatter.h
+END
+PinyinFormatter.m
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/HCSearch/PinYinSearchLib/PinyinFormatter.m
+END
+NSString+PinYin4Cocoa.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/HCSearch/PinYinSearchLib/NSString+PinYin4Cocoa.h
+END
+HanyuPinyinOutputFormat.h
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/HCSearch/PinYinSearchLib/HanyuPinyinOutputFormat.h
+END
+PinyinHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/HCSearch/PinYinSearchLib/PinyinHelper.h
+END
+NSString+PinYin4Cocoa.m
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/HCSearch/PinYinSearchLib/NSString+PinYin4Cocoa.m
+END
+HanyuPinyinOutputFormat.m
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/HCSearch/PinYinSearchLib/HanyuPinyinOutputFormat.m
+END
+unicode_to_hanyu_pinyin.txt
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/HCSearch/PinYinSearchLib/unicode_to_hanyu_pinyin.txt
+END
+PinyinHelper.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/HCSearch/PinYinSearchLib/PinyinHelper.m
+END
+PinYinForObjc.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/HCSearch/PinYinSearchLib/PinYinForObjc.h
+END
+ZYPinYinSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/HCSearch/PinYinSearchLib/ZYPinYinSearch.h
+END
+PinYinForObjc.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/HCSearch/PinYinSearchLib/PinYinForObjc.m
+END
+ChineseToPinyinResource.h
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/HCSearch/PinYinSearchLib/ChineseToPinyinResource.h
+END
+ChineseInclude.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/HCSearch/PinYinSearchLib/ChineseInclude.h
+END
+ZYPinYinSearch.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/HCSearch/PinYinSearchLib/ZYPinYinSearch.m
+END
+ChineseToPinyinResource.m
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/HCSearch/PinYinSearchLib/ChineseToPinyinResource.m
+END
+ChineseInclude.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/HCSearch/PinYinSearchLib/ChineseInclude.m
+END

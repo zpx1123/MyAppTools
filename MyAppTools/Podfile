@@ -18,7 +18,7 @@ pod 'PXTools', '~> 1.0.0’
 pod 'YYKit', '~> 0.9.11'
 pod 'MJRefresh', '~> 3.1.0'
 pod 'MyLayout', '~> 1.2.2'
-
+pod 'ReactiveCocoa', '2.1.8'
 
 
 end

@@ -188,7 +188,12 @@
         [self.webView goBack];
     } else {
 
-        [self.navigationController popViewControllerAnimated:YES];
+        if ([self.title isEqualToString:@"用户协议"]) {
+            [self dismissViewControllerAnimated:YES completion:nil];
+        }else{
+            [self.navigationController popViewControllerAnimated:YES];
+        }
+        
     }
 }
 

@@ -195,11 +195,11 @@
     return [pred evaluateWithObject:self];
 }
 
-#pragma 正则匹配用户密码6-18位数字和字母组合
+#pragma 正则匹配用户密码6-16位数字和字母组合
 -(BOOL)checkPassword
 {
-//    NSString *regex = @"^(?![0-9]+$)(?![a-zA-Z]+$)[a-zA-Z0-9]{6,18}";
-    NSString *regex = @"[_0-9a-zA-Z]{6,20}";
+    NSString *regex = @"^(?![0-9]+$)(?![a-zA-Z]+$)[a-zA-Z0-9]{6,18}";
+//    NSString *regex = @"[_0-9a-zA-Z]{6,16}";
     NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];
     BOOL isMatch = [pred evaluateWithObject:self];
     return isMatch;

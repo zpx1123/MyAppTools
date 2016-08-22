@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/UI-Component/Category/RotateView
+END
+RotateView.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/UI-Component/Category/RotateView/RotateView.h
+END
+UIView+RotateAnimationProtocol.m
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/UI-Component/Category/RotateView/UIView+RotateAnimationProtocol.m
+END
+RotateView.m
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/UI-Component/Category/RotateView/RotateView.m
+END
+RotateAnimationProtocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/UI-Component/Category/RotateView/RotateAnimationProtocol.h
+END
+UIView+RotateAnimationProtocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/hsyh/!svn/ver/2478/trunk/03%E7%BC%96%E7%A0%81/iOS/MyAppTools/MyAppTools/MyAppTools/OtherSouce/UI-Component/Category/RotateView/UIView+RotateAnimationProtocol.h
+END
